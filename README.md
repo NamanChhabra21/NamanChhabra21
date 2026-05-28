@@ -1,4 +1,4 @@
-## Yo Coders!
+## Yo CoderZ!
 This is Naman, a 16 years old intermediate programmer with approximately 3 years of experience in `python` programming language.
 Currently in last year of High School [ Class 12 - PCM ]
 ## Skills
