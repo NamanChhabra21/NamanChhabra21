@@ -21,10 +21,12 @@ Pygame, OpenCv, tkinter, customtkinter, os, json, requests, Pandas, Numpy, threa
 - Personal Whatsapp Bot
 - Many More
 ## Skills I am currently working on
+- Linux
 - Javascript
 - Data Science using Python
 - AI development
 ## Areas of Interest
+- Cyber Security
 - Game Development
 - GUI Development
 - Python Framework Development
