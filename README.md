@@ -77,6 +77,9 @@ Feel free to connect with me through any of the platforms below.
 
 <br>
 
-<i>Learning by building • Improving every day.</i>
-
 </div>
+
+
+<p align="center">
+  <img src="https://github.com/NamanChhabra21/NamanChhabra21/blob/main/assets/quote-banner.svg" width="70%">
+</p>
