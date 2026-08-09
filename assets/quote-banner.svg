@@ -1,0 +1,414 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600"
+     height="200"
+     viewBox="0 0 1600 200">
+
+  <defs>
+
+    <!-- ==============================
+         THEME-SAFE GOLD
+         ============================== -->
+    <linearGradient id="gold"
+                    x1="-100%" y1="0%"
+                    x2="0%" y2="0%">
+
+      <stop offset="0%"   stop-color="#765300"/>
+      <stop offset="18%"  stop-color="#B8860B"/>
+      <stop offset="38%"  stop-color="#E5C45A"/>
+      <stop offset="50%"  stop-color="#FFF0A3"/>
+      <stop offset="62%"  stop-color="#E5C45A"/>
+      <stop offset="82%"  stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#765300"/>
+
+      <animate
+        attributeName="x1"
+        values="-100%;200%;-100%"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="x2"
+        values="0%;300%;0%"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </linearGradient>
+
+
+    <!-- ==============================
+         THEME-SAFE SILVER
+         ============================== -->
+    <linearGradient id="silver"
+                    x1="-100%" y1="0%"
+                    x2="0%" y2="0%">
+
+      <stop offset="0%"   stop-color="#45484C"/>
+      <stop offset="20%"  stop-color="#858A90"/>
+      <stop offset="40%"  stop-color="#D9DDE1"/>
+      <stop offset="50%"  stop-color="#FFFFFF"/>
+      <stop offset="60%"  stop-color="#D9DDE1"/>
+      <stop offset="80%"  stop-color="#858A90"/>
+      <stop offset="100%" stop-color="#45484C"/>
+
+      <animate
+        attributeName="x1"
+        values="-100%;200%;-100%"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="x2"
+        values="0%;300%;0%"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </linearGradient>
+
+
+    <!-- ==============================
+         GOLD SHINE
+         ============================== -->
+    <linearGradient id="goldShine"
+                    x1="-100%" y1="0%"
+                    x2="0%" y2="0%">
+
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="47%"  stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="53%"  stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+      <animate
+        attributeName="x1"
+        values="-100%;200%"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="x2"
+        values="0%;300%"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+    </linearGradient>
+
+
+    <!-- ==============================
+         SILVER SHINE
+         ============================== -->
+    <linearGradient id="silverShine"
+                    x1="-100%" y1="0%"
+                    x2="0%" y2="0%">
+
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="47%"  stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="53%"  stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+      <animate
+        attributeName="x1"
+        values="-100%;200%"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="x2"
+        values="0%;300%"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </linearGradient>
+
+
+    <!-- ==============================
+         GOLD GLOW
+         ============================== -->
+    <filter id="goldGlow"
+            x="-50%"
+            y="-100%"
+            width="200%"
+            height="300%">
+
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="2"
+        result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <!-- ==============================
+         SILVER GLOW
+         ============================== -->
+    <filter id="silverGlow"
+            x="-50%"
+            y="-100%"
+            width="200%"
+            height="300%">
+
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="1.5"
+        result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- =================================
+       LEFT GOLD LINE
+       ================================= -->
+
+  <line
+    x1="70"
+    y1="78"
+    x2="300"
+    y2="78"
+    stroke="url(#gold)"
+    stroke-width="2">
+
+    <animate
+      attributeName="x2"
+      values="300;335;300"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </line>
+
+
+  <!-- LEFT DOT -->
+
+  <circle
+    cx="70"
+    cy="78"
+    r="3"
+    fill="#D4AF37"
+    stroke="#5A4300"
+    stroke-width="1"
+    filter="url(#goldGlow)">
+
+    <animate
+      attributeName="r"
+      values="2;5;2"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- =================================
+       RIGHT GOLD LINE
+       ================================= -->
+
+  <line
+    x1="1300"
+    y1="78"
+    x2="1530"
+    y2="78"
+    stroke="url(#gold)"
+    stroke-width="2">
+
+    <animate
+      attributeName="x1"
+      values="1300;1265;1300"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </line>
+
+
+  <!-- RIGHT DOT -->
+
+  <circle
+    cx="1530"
+    cy="78"
+    r="3"
+    fill="#D4AF37"
+    stroke="#5A4300"
+    stroke-width="1"
+    filter="url(#goldGlow)">
+
+    <animate
+      attributeName="r"
+      values="2;5;2"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- =================================
+       MAIN QUOTE
+       ================================= -->
+
+  <text
+    x="800"
+    y="75"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-style="italic"
+    font-weight="bold"
+    fill="url(#gold)"
+    stroke="#5B4300"
+    stroke-width="1.2"
+    paint-order="stroke fill"
+    filter="url(#goldGlow)">
+
+    Stay silent. Let your code speak.
+
+  </text>
+
+
+  <!-- =================================
+       GOLD SHIMMER
+       ================================= -->
+
+  <text
+    x="800"
+    y="75"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-style="italic"
+    font-weight="bold"
+    fill="url(#goldShine)"
+    opacity="0.9">
+
+    Stay silent. Let your code speak.
+
+  </text>
+
+
+  <!-- =================================
+       SMALL SILVER SIGNATURE
+       BOTTOM RIGHT
+       ================================= -->
+
+  <text
+    x="1515"
+    y="163"
+    text-anchor="end"
+    dominant-baseline="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    font-weight="700"
+    letter-spacing="2"
+    fill="url(#silver)"
+    stroke="#34373A"
+    stroke-width="0.8"
+    paint-order="stroke fill"
+    filter="url(#silverGlow)">
+
+    ~ Naman Chhabra
+
+  </text>
+
+
+  <!-- =================================
+       SILVER SHIMMER
+       ================================= -->
+
+  <text
+    x="1515"
+    y="163"
+    text-anchor="end"
+    dominant-baseline="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    font-weight="700"
+    letter-spacing="2"
+    fill="url(#silverShine)"
+    opacity="0.9">
+
+    ~ Naman Chhabra
+
+  </text>
+
+
+  <!-- =================================
+       SIGNATURE UNDERLINE
+       ================================= -->
+
+  <line
+    x1="1370"
+    y1="177"
+    x2="1515"
+    y2="177"
+    stroke="url(#silver)"
+    stroke-width="1"
+    opacity="0.8">
+
+    <animate
+      attributeName="x1"
+      values="1515;1370;1515"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </line>
+
+
+  <!-- =================================
+       GOLD SPARKLES
+       ================================= -->
+
+  <g
+    fill="#D4AF37"
+    stroke="#5B4300"
+    stroke-width="0.5"
+    filter="url(#goldGlow)">
+
+    <text x="325" y="84" font-size="18">✦</text>
+    <text x="1257" y="84" font-size="18">✦</text>
+
+    <animate
+      attributeName="opacity"
+      values="0.25;1;0.25"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+
+  <!-- =================================
+       CENTER GOLD PULSE
+       ================================= -->
+
+  <circle
+    cx="800"
+    cy="116"
+    r="2"
+    fill="#FFE98A"
+    stroke="#765300"
+    stroke-width="1"
+    filter="url(#goldGlow)">
+
+    <animate
+      attributeName="r"
+      values="1;5;1"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
