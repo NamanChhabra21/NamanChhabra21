@@ -61,7 +61,7 @@ This is Naman, a 16-year-old intermediate programmer with approximately
 </text>
 
 <text x="70" y="155" font-family="Segoe UI" font-size="22" fill="#F3F3F3">
-3 years of experience in Python. Currently in Class 12 (PCM).
+4 years of experience in Python. Currently in Class 12 (PCM).
 <animate attributeName="opacity" begin="1.2s" values="0;1" dur="1s" fill="freeze"/>
 </text>
 
@@ -80,7 +80,7 @@ This is Naman, a 16-year-old intermediate programmer with approximately
 
 <text x="620" y="235" font-size="30" fill="url(#gold)" font-weight="700">Published Projects</text>
 <text x="640" y="275">• SplashScreen-engine</text>
-<text x="640" y="310">• RocketGame</text>
+<text x="640" y="310">• Starfall Protocol</text>
 <text x="640" y="345">• Login UI Tkinter</text>
 <text x="640" y="380">• Many More...</text>
 
