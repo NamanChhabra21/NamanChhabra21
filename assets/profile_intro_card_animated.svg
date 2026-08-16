@@ -56,12 +56,12 @@ Yo CoderZ!
 </text>
 
 <text x="70" y="125" font-family="Segoe UI" font-size="22" fill="#F3F3F3">
-This is Naman, a 16-year-old intermediate programmer with approximately
+This is Naman, a 16-year-old programmer, coding since 2022
 <animate attributeName="opacity" begin="0.8s" values="0;1" dur="1s" fill="freeze"/>
 </text>
 
 <text x="70" y="155" font-family="Segoe UI" font-size="22" fill="#F3F3F3">
-4 years of experience in Python. Currently in Class 12 (PCM).
+Currently in Class 12 (Non-Medical Science).
 <animate attributeName="opacity" begin="1.2s" values="0;1" dur="1s" fill="freeze"/>
 </text>
 
@@ -73,7 +73,7 @@ This is Naman, a 16-year-old intermediate programmer with approximately
 <text x="70" y="235" font-size="30" fill="url(#gold)" font-weight="700">Skills</text>
 
 <text x="90" y="275">• Python<animate attributeName="opacity" begin="1.6s" values="0;1" dur=".5s" fill="freeze"/></text>
-<text x="90" y="310">• Web Development<animate attributeName="opacity" begin="1.8s" values="0;1" dur=".5s" fill="freeze"/></text>
+<text x="90" y="310">• Data Management<animate attributeName="opacity" begin="1.8s" values="0;1" dur=".5s" fill="freeze"/></text>
 <text x="90" y="345">• Video Editing<animate attributeName="opacity" begin="2.0s" values="0;1" dur=".5s" fill="freeze"/></text>
 <text x="90" y="380">• Excel<animate attributeName="opacity" begin="2.2s" values="0;1" dur=".5s" fill="freeze"/></text>
 <text x="90" y="415">• PowerPoint<animate attributeName="opacity" begin="2.4s" values="0;1" dur=".5s" fill="freeze"/></text>
@@ -81,11 +81,11 @@ This is Naman, a 16-year-old intermediate programmer with approximately
 <text x="620" y="235" font-size="30" fill="url(#gold)" font-weight="700">Published Projects</text>
 <text x="640" y="275">• SplashScreen-engine</text>
 <text x="640" y="310">• Starfall Protocol</text>
-<text x="640" y="345">• Login UI Tkinter</text>
+<text x="640" y="345">• Not Virues</text>
 <text x="640" y="380">• Many More...</text>
 
 <text x="70" y="500" font-size="30" fill="url(#gold)" font-weight="700">Currently Learning</text>
-<text x="90" y="540">• JavaScript</text>
+<text x="90" y="540">• Web Development</text>
 <text x="90" y="575">• Data Science using Python</text>
 <text x="90" y="610">• AI Development</text>
 
